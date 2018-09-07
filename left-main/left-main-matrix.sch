@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title "Ultimate Hacking Keyboard - Left Main Board"
+Title "Ultimate Hacking Keyboard - Left Main Board (LED matrix)"
 Date ""
 Rev "7.8.1"
 Comp "Ultimate Gadget Laboratories Kft."

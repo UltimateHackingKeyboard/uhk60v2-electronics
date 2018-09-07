@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:left-main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -3846,4 +3847,11 @@ Connection ~ 5300 3850
 Connection ~ 1650 2100
 Wire Wire Line
 	1650 2100 1750 2100
+Wire Wire Line
+	4900 6900 4800 6900
+Wire Wire Line
+	4800 6900 4800 7200
+Connection ~ 4800 7200
+Text Notes 3450 7650 0    50   ~ 0
+I2C address is: 0x50
 $EndSCHEMATC

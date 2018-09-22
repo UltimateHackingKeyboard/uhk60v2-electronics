@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew no-vcs-found-694ad93~61~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-90788a5~66~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -30,6 +30,9 @@
     (42 Eco1.User user)
     (43 Eco2.User user)
     (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
     (48 B.Fab user)
   )
 
@@ -46,8 +49,6 @@
     (zone_clearance 0.3048)
     (zone_45_only no)
     (trace_min 0.2032)
-    (segment_width 0.15)
-    (edge_width 0.1)
     (via_size 1.0668)
     (via_drill 0.7112)
     (via_min_size 0.7112)
@@ -59,6 +60,8 @@
     (uvias_allowed yes)
     (uvia_min_size 0.7112)
     (uvia_min_drill 0.381)
+    (edge_width 0.1)
+    (segment_width 0.15)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -83,7 +86,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -95,7 +98,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../gerbers/right-main))
+      (outputdirectory "../gerbers/right-main"))
   )
 
   (net 0 "")
@@ -241,8 +244,8 @@
     (via_drill 0.7112)
     (uvia_dia 0.7112)
     (uvia_drill 0.381)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.3048)
+    (diff_pair_gap 0.254)
     (add_net +3V3)
     (add_net +5V)
     (add_net /ADC)
@@ -547,10 +550,10 @@
     (at 266.6 107.2 90)
     (attr virtual)
     (fp_text reference G1 (at 0 0 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_text value LOGO (at 0 0 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy -3.952616 0.892843) (xy -3.952613 0.771975) (xy -3.952603 0.65577) (xy -3.952586 0.544218)
       (xy -3.952563 0.437308) (xy -3.952533 0.335033) (xy -3.952496 0.237381) (xy -3.952452 0.144344)
@@ -1192,10 +1195,10 @@
     (descr "OSHW Logo, 6mm height")
     (attr virtual)
     (fp_text reference G2 (at 0 0 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_text value LOGO (at 0.75 0 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy -0.086974 2.999569) (xy -0.030841 2.999389) (xy 0.034978 2.999129) (xy 0.043942 2.999092)
       (xy 0.371922 2.99773) (xy 0.381333 2.9845) (xy 0.384312 2.977205) (xy 0.388571 2.961745)

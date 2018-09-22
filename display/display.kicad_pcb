@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew no-vcs-found-694ad93~61~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-90788a5~66~ubuntu16.04.1)
 
   (general
     (thickness 1.6002)
@@ -28,6 +28,9 @@
     (41 Cmts.User user)
     (42 Eco1.User user)
     (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
   )
 
   (setup
@@ -40,8 +43,6 @@
     (zone_clearance 0.3048)
     (zone_45_only no)
     (trace_min 0.2032)
-    (segment_width 0.15)
-    (edge_width 0.01)
     (via_size 0.7112)
     (via_drill 0.381)
     (via_min_size 0.7112)
@@ -53,6 +54,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.6096)
     (uvia_min_drill 0.127)
+    (edge_width 0.01)
+    (segment_width 0.15)
     (pcb_text_width 0.3048)
     (pcb_text_size 1.524 2.032)
     (mod_edge_width 0.381)
@@ -78,7 +81,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -90,7 +93,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../gerbers/display))
+      (outputdirectory "../gerbers/display"))
   )
 
   (net 0 "")
@@ -112,8 +115,8 @@
     (via_drill 0.381)
     (uvia_dia 0.7112)
     (uvia_drill 0.381)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.254)
+    (diff_pair_gap 0.254)
     (add_net /CB1)
     (add_net /CB2)
     (add_net /CB3)

@@ -38,15 +38,15 @@ F 3 "" H 7850 1550 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2600 2750 2750 2750
-Text HLabel 2600 2750 0    50   Input ~ 0
+Text HLabel 2600 1250 0    50   Input ~ 0
 SW7
 Wire Wire Line
 	3100 1000 3100 3200
 Text HLabel 3100 1000 1    50   Input ~ 0
 CS1
-Text HLabel 2600 2850 0    50   Input ~ 0
+Text HLabel 2600 1350 0    50   Input ~ 0
 SW8
-Text HLabel 2600 2950 0    50   Input ~ 0
+Text HLabel 2600 1450 0    50   Input ~ 0
 SW9
 Wire Wire Line
 	2600 2850 2700 2850
@@ -549,11 +549,11 @@ Connection ~ 5850 3200
 Connection ~ 6400 3200
 Wire Wire Line
 	2600 3500 2750 3500
-Text HLabel 2600 3500 0    50   Input ~ 0
+Text HLabel 2600 2000 0    50   Input ~ 0
 SW10
-Text HLabel 2600 3600 0    50   Input ~ 0
+Text HLabel 2600 2100 0    50   Input ~ 0
 SW11
-Text HLabel 2600 3700 0    50   Input ~ 0
+Text HLabel 2600 2200 0    50   Input ~ 0
 SW12
 Wire Wire Line
 	2600 3600 2700 3600
@@ -1059,11 +1059,11 @@ Text Notes 3450 5900 0    79   ~ 16
 D1412\n
 Wire Wire Line
 	2600 1450 7050 1450
-Text HLabel 2600 1450 0    50   Input ~ 0
+Text HLabel 2600 2950 0    50   Input ~ 0
 SW3
-Text HLabel 2600 1350 0    50   Input ~ 0
+Text HLabel 2600 2850 0    50   Input ~ 0
 SW2
-Text HLabel 2600 1250 0    50   Input ~ 0
+Text HLabel 2600 2750 0    50   Input ~ 0
 SW1
 Wire Wire Line
 	2600 1350 7100 1350
@@ -1163,11 +1163,11 @@ Connection ~ 7500 1700
 Connection ~ 8050 1700
 Connection ~ 8600 1700
 Connection ~ 9150 1700
-Text HLabel 2600 2000 0    50   Input ~ 0
+Text HLabel 2600 3500 0    50   Input ~ 0
 SW4
-Text HLabel 2600 2100 0    50   Input ~ 0
+Text HLabel 2600 3600 0    50   Input ~ 0
 SW5
-Text HLabel 2600 2200 0    50   Input ~ 0
+Text HLabel 2600 3700 0    50   Input ~ 0
 SW6
 Wire Wire Line
 	5950 2950 6050 2950

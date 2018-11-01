@@ -3552,17 +3552,17 @@ F 3 "" H 9850 3900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 10200 3050 0    40   ~ 0
-SW1
+SW7
 Text Label 10200 3150 0    40   ~ 0
-SW2
+SW8
 Text Label 10200 3250 0    40   ~ 0
-SW3
+SW9
 Text Label 10200 3350 0    40   ~ 0
-SW4
+SW10
 Text Label 10200 3450 0    40   ~ 0
-SW5
+SW11
 Text Label 10200 3550 0    40   ~ 0
-SW6
+SW12
 Text Label 10200 3750 0    40   ~ 0
 CS1
 Text Label 10200 3850 0    40   ~ 0

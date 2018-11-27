@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Ultimate Hacking Keyboard - Left Main Board"
+Title "UHK60v2"
 Date ""
-Rev "7.8.1"
+Rev "1.0.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""

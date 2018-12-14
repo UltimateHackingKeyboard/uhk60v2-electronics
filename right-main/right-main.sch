@@ -2637,7 +2637,7 @@ F 3 "" H 10450 3000 60  0001 C CNN
 	1    10450 3000
 	0    1    1    0   
 $EndComp
-Text Label 10400 3000 2    40   ~ 0
+Text Label 10450 3000 2    40   ~ 0
 ADC
 $Comp
 L ugl:TEST_POINT TP_SW11_D1

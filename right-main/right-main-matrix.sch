@@ -543,9 +543,9 @@ Wire Wire Line
 Text HLabel 2600 1450 0    50   Input ~ 0
 SW3
 Text HLabel 2600 1350 0    50   Input ~ 0
-SW2
+SW11
 Text HLabel 2600 1250 0    50   Input ~ 0
-SW1
+SW10
 Wire Wire Line
 	2600 1350 2700 1350
 Wire Wire Line

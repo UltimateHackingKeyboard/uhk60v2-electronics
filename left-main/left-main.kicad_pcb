@@ -23,7 +23,7 @@
     (35 F.Paste user hide)
     (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user hide)
+    (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
@@ -321,7 +321,7 @@
     (add_net "Net-(U2-Pad33)")
   )
 
-  (module UGL:UHK_Connector_GND10_Pad (layer F.Cu) (tedit 5C1694EA) (tstamp 5C16A56E)
+  (module UGL:UHK_Connector_GND10_Pad (layer F.Cu) (tedit 5C17AE31) (tstamp 5C16A56E)
     (at 142.02001 99.920221)
     (attr virtual)
     (fp_text reference REF** (at 0 -5.9) (layer F.SilkS) hide
@@ -330,7 +330,9 @@
     (fp_text value VAL** (at 0 6.2) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 10 10) (drill 6.2) (layers *.Mask F.Cu)
+    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask)
+      (net 16 GND))
+    (pad 1 smd circle (at 0 0) (size 10 10) (layers F.Cu F.Mask)
       (net 16 GND))
   )
 
@@ -11570,7 +11572,7 @@
   (segment (start 179.94519 70.86321) (end 181.89441 70.86321) (width 0.2032) (layer B.Cu) (net 103))
   (segment (start 181.9866 74.509187) (end 184.782813 77.3054) (width 0.2032) (layer B.Cu) (net 103))
 
-  (zone (net 16) (net_name GND) (layer F.Cu) (tstamp 5C16AC25) (hatch edge 0.508)
+  (zone (net 16) (net_name GND) (layer F.Cu) (tstamp 5C17B1BB) (hatch edge 0.508)
     (connect_pads (clearance 0.3048))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.3048) (thermal_bridge_width 0.508))

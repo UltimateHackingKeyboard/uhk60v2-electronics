@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:display-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Ultimate Hacking Keyboard - LED Display Board"
+Title "UHK60v2 - LED Display Board"
 Date ""
-Rev "7.8.1"
+Rev "1.0.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""

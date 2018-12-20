@@ -7199,7 +7199,7 @@
   )
 
   (module Input_Club:FID locked (layer B.Cu) (tedit 5C180ACB) (tstamp 5C181411)
-    (at 138.7 52.9)
+    (at 138.5 52.5)
     (descr FID)
     (tags FIDUCIAL)
     (attr virtual)

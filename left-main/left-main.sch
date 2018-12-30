@@ -3534,7 +3534,6 @@ Wire Wire Line
 Connection ~ 10900 1650
 Wire Wire Line
 	10900 1650 10900 1950
-NoConn ~ 10200 3650
 Text Label 7350 4800 2    40   ~ 0
 LED_SW1
 Text Label 8100 4800 2    40   ~ 0
@@ -3907,17 +3906,17 @@ Wire Wire Line
 	7050 4250 7400 4250
 Wire Wire Line
 	7400 4350 7050 4350
-Text Label 10200 3050 0    40   ~ 0
-LED_SW7
 Text Label 10200 3150 0    40   ~ 0
-LED_SW8
+LED_SW7
 Text Label 10200 3250 0    40   ~ 0
-LED_SW9
+LED_SW8
 Text Label 10200 3350 0    40   ~ 0
-LED_SW10
+LED_SW9
 Text Label 10200 3450 0    40   ~ 0
-LED_SW11
+LED_SW10
 Text Label 10200 3550 0    40   ~ 0
+LED_SW11
+Text Label 10200 3650 0    40   ~ 0
 LED_SW12
 Text Label 10200 3750 0    40   ~ 0
 LED_CS1
@@ -3953,4 +3952,17 @@ Wire Wire Line
 	4650 7400 4800 7400
 Wire Wire Line
 	4650 7500 4800 7500
+$Comp
+L power:GND #PWR?
+U 1 1 5C2C3579
+P 10650 3050
+F 0 "#PWR?" H 10650 3050 30  0001 C CNN
+F 1 "GND" H 10650 2980 30  0001 C CNN
+F 2 "" H 10650 3050 60  0000 C CNN
+F 3 "" H 10650 3050 60  0000 C CNN
+	1    10650 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3050 10650 3050
 $EndSCHEMATC

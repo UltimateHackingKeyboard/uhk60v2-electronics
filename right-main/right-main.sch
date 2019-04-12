@@ -3773,8 +3773,6 @@ Connection ~ 2250 1300
 Connection ~ 3450 1500
 Connection ~ 2350 3000
 Connection ~ 2350 3200
-Wire Wire Line
-	4150 4700 4150 4650
 Connection ~ 4150 4700
 Connection ~ 4150 4900
 Wire Notes Line
@@ -5151,4 +5149,17 @@ Wire Wire Line
 	5100 5100 5200 5100
 Wire Wire Line
 	5100 5200 5200 5200
+$Comp
+L ICEDLeft:+5V #PWR?
+U 1 1 5CB37560
+P 4150 4600
+F 0 "#PWR?" H 4150 4450 50  0001 C CNN
+F 1 "+5V" H 4150 4750 40  0000 C CNN
+F 2 "" H 4150 4600 50  0000 C CNN
+F 3 "" H 4150 4600 50  0000 C CNN
+	1    4150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4600 4150 4700
 $EndSCHEMATC

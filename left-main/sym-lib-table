@@ -4,4 +4,5 @@
   (lib (name opendous)(type Legacy)(uri ${KIPRJMOD}/../libs/opendous/library/opendous.lib)(options "")(descr ""))
   (lib (name ICEDLeft)(type Legacy)(uri "${KIPRJMOD}/../libs/kiibohd/ICED - Left/lib/ICEDLeft.lib")(options "")(descr ""))
   (lib (name device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Device.lib)(options "")(descr ""))
+  (lib (name left-main-rescue)(type Legacy)(uri ${KIPRJMOD}/left-main-rescue.lib)(options "")(descr ""))
 )

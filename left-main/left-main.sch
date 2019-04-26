@@ -3988,11 +3988,6 @@ Wire Wire Line
 Connection ~ 4100 5200
 Wire Wire Line
 	4100 5200 4800 5200
-Wire Wire Line
-	4450 5300 4450 5400
-Connection ~ 4450 5300
-Wire Wire Line
-	4450 5300 4800 5300
 Connection ~ 3400 5600
 Wire Wire Line
 	3400 5300 3400 5600
@@ -4057,7 +4052,6 @@ Wire Wire Line
 Connection ~ 4100 5600
 Wire Wire Line
 	4100 5600 4250 5600
-Connection ~ 4450 5400
 $Comp
 L ugl:C C17
 U 1 1 5C71D6A3
@@ -4070,8 +4064,6 @@ F 3 "" H 4250 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 4250 5300
-Wire Wire Line
-	4250 5300 4450 5300
 Wire Wire Line
 	4250 5500 4250 5600
 Connection ~ 4250 5600
@@ -4148,4 +4140,20 @@ Text Label 2550 7450 0    40   ~ 0
 SCL
 Text Label 2550 7350 0    40   ~ 0
 SDA
+Wire Wire Line
+	4250 5300 4800 5300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CC4EDAC
+P 4450 5050
+F 0 "#PWR?" H 4450 4900 50  0001 C CNN
+F 1 "+3V3" H 4450 5200 40  0000 C CNN
+F 2 "" H 4450 5050 50  0000 C CNN
+F 3 "" H 4450 5050 50  0000 C CNN
+	1    4450 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 5050 4450 5400
+Connection ~ 4450 5400
 $EndSCHEMATC

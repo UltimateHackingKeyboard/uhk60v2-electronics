@@ -4173,12 +4173,7 @@ F 3 "" H 8250 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 2200 8550 2200
-Wire Wire Line
-	8450 2200 8450 2100
-Wire Wire Line
 	8450 2100 8550 2100
-Connection ~ 8450 2100
 Wire Wire Line
 	8450 2100 8450 2000
 Wire Wire Line
@@ -4938,12 +4933,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 2450 7850 2450
 Wire Wire Line
-	8150 2450 8150 2200
-Wire Wire Line
-	8150 2200 8450 2200
-Wire Wire Line
 	7700 2450 7700 2400
-Connection ~ 8450 2200
 Connection ~ 7850 2450
 Wire Wire Line
 	7850 2450 7850 2400
@@ -4952,8 +4942,6 @@ Wire Wire Line
 Connection ~ 8000 2450
 Wire Wire Line
 	8000 2450 8000 2400
-Wire Wire Line
-	8000 2450 8150 2450
 Wire Wire Line
 	8000 2200 8000 2100
 Wire Wire Line
@@ -5029,9 +5017,6 @@ Wire Wire Line
 Connection ~ 8150 2750
 Wire Wire Line
 	8150 2750 8250 2750
-Wire Wire Line
-	8150 2500 8150 2450
-Connection ~ 8150 2450
 Text Notes 7700 2850 0    50   ~ 0
 4x0.47uF
 $Comp
@@ -5162,4 +5147,29 @@ F 3 "" H 4150 4600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4150 4600 4150 4700
+Wire Wire Line
+	8150 2200 8150 2500
+Wire Wire Line
+	8150 2200 8550 2200
+Wire Wire Line
+	8450 2100 8100 2100
+Wire Wire Line
+	8100 2100 8100 2450
+Wire Wire Line
+	8100 2450 8000 2450
+Connection ~ 8450 2100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CCCA744
+P 8150 2000
+F 0 "#PWR?" H 8150 1850 50  0001 C CNN
+F 1 "+3V3" H 8150 2150 40  0000 C CNN
+F 2 "" H 8150 2000 50  0000 C CNN
+F 3 "" H 8150 2000 50  0000 C CNN
+	1    8150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2200 8150 2000
+Connection ~ 8150 2200
 $EndSCHEMATC

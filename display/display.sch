@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:display-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "UHK60v2 - LED Display Board"
+Title "UHK 60 v2 - LED Display Board"
 Date ""
-Rev "1.0.0"
+Rev "2.0.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 922)
+    (drawings 927)
     (tracks 3310)
     (zones 0)
     (modules 288)
@@ -11,8 +11,8 @@
 
   (page A4)
   (title_block
-    (title UHK60v2)
-    (rev 1.0.0)
+    (title "UHK 60 v2 - Right Half")
+    (rev 2.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -2079,7 +2079,7 @@
     (fp_text reference SW55 (at -0.589987 -6.199998 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value R_ALT (at -0.589987 -10.199998 180) (layer B.SilkS)
+    (fp_text value R_ALT (at -2.889987 -7.799998 180) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1778)) (justify mirror))
     )
     (fp_line (start 7 7) (end 5.5 7) (layer F.SilkS) (width 0.15))
@@ -2809,11 +2809,11 @@
       (net 27 /KEYS_ROW5) (clearance 0.2032))
   )
 
-  (module FFC_Connector_51281-0594 locked (layer B.Cu) (tedit 5CB084C0) (tstamp 5CAD186E)
+  (module FFC_Connector_51281-0594 locked (layer B.Cu) (tedit 5CB084C0) (tstamp 5CCF4F82)
     (at 270.7 86.2 270)
     (path /5CB02C68)
     (attr smd)
-    (fp_text reference P7 (at -3.7 1.5) (layer B.SilkS)
+    (fp_text reference P7 (at 4 1.5) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CONN_5 (at 0 -0.9 270) (layer B.SilkS) hide
@@ -3126,7 +3126,7 @@
     (at 190 144.7 180)
     (path /50CA6B27)
     (attr smd)
-    (fp_text reference D55 (at 1.6 -1.6 180) (layer B.SilkS)
+    (fp_text reference D55 (at 4.3 -0.3 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_text value DIODE (at 3.7 0 90) (layer B.SilkS) hide
@@ -5365,7 +5365,7 @@
     (tags "Tag-Connect TC2030")
     (path /5C5DDED9)
     (attr virtual)
-    (fp_text reference P6 (at -0.9 4 -180) (layer B.SilkS)
+    (fp_text reference P6 (at -4.6 -1.2 -180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CONN_6 (at 0 -4.4) (layer B.SilkS) hide
@@ -5413,7 +5413,7 @@
   )
 
   (module UGL:UHK_Logo_5mm_height_Silkscreen locked (layer B.Cu) (tedit 5C4EEDC6) (tstamp 5C189F9E)
-    (at 265.2 118.6 180)
+    (at 263.07 115.64 180)
     (descr "UHK Logo, 5mm height")
     (attr virtual)
     (fp_text reference G1 (at 0 0 180) (layer B.SilkS) hide
@@ -5541,7 +5541,7 @@
     (at 125.8 139.8)
     (path /512EB389)
     (attr virtual)
-    (fp_text reference P2 (at 0 10.7) (layer F.SilkS)
+    (fp_text reference P2 (at 2.3 -1.8) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_text value CONN_5 (at 0.1 -10.8 180) (layer F.SilkS) hide
@@ -6759,7 +6759,7 @@
       (net 51 /SDB))
   )
 
-  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5825FEC2)
+  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5CCF4E72)
     (at 252.8 148.5 180)
     (descr FID)
     (tags FIDUCIAL)
@@ -7629,6 +7629,17 @@
       (solder_mask_margin 1) (clearance 1.2))
   )
 
+  (gr_line (start 271.5 87.5) (end 268.3 87.5) (layer F.SilkS) (width 0.2))
+  (gr_line (start 271.5 84.9) (end 268.3 84.9) (layer F.SilkS) (width 0.2))
+  (gr_text EXT_R (at 269.9 86.2) (layer F.SilkS) (tstamp 5CCF4EE7)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text EXT_R (at 269.3 82.3) (layer B.SilkS) (tstamp 5CCF4EA1)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text SWD (at 262.2 108.6) (layer B.SilkS) (tstamp 5CCF3E79)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 271.600009 110.580145) (end 271.600009 109.145929) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 5CB56C32))
   (gr_arc (start 233.099966 152.499918) (end 233.100002 153.000001) (angle -42.70296032) (layer Edge.Cuts) (width 0.01) (tstamp 5CB56C31))
   (gr_line (start 135.942647 49.899999) (end 135.688033 49.899999) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 5CB56C30))
@@ -8398,7 +8409,7 @@
   (gr_text RESET (at 258.6 150.8 90) (layer F.SilkS) (tstamp 5A297924)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "PCB ID:\nuhk60v2_right_1.0.0" (at 172.2 48.3) (layer F.SilkS) (tstamp 5956EC7B)
+  (gr_text "PCB ID:\nuhk60v2_right_2.0.0" (at 172.2 48.3) (layer F.SilkS) (tstamp 5956EC7B)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left))
   )
   (gr_line (start 240 144.525) (end 257.3 144.525) (layer Eco2.User) (width 0.1))
@@ -8470,7 +8481,7 @@
   (gr_line (start 175.3 45.8) (end 175.3 44.7) (layer B.SilkS) (width 0.15))
   (gr_line (start 175.7 42.3) (end 175.9 42.3) (layer B.SilkS) (width 0.15))
   (gr_line (start 173.8 44.2) (end 175.7 42.3) (layer B.SilkS) (width 0.15))
-  (gr_text "UltimateHackingKeyboard.com by UltimateGadgetLabs.com\n" (at 270.9 104.6 270) (layer B.SilkS) (tstamp 5C17C7BF)
+  (gr_text "UltimateHackingKeyboard.com\nby UltimateGadgetLabs.com\n" (at 262.83 119.91) (layer B.SilkS) (tstamp 5CCF39D6)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 225.4 146.6) (end 224.8 147.2) (layer B.SilkS) (width 0.15))
@@ -8483,7 +8494,7 @@
   (gr_text SWD (at 261.2 151.4 90) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "Model: UHK 60 v2\nPCB ID: uhk60v2_right_1.0.0" (at 261.7 98 270) (layer B.SilkS) (tstamp 5C5084A9)
+  (gr_text "Model: UHK 60 v2 | PCB ID: uhk60v2_right_2.0.0" (at 178.2 147) (layer B.SilkS) (tstamp 5C5084A9)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 265.2556 141.286) (end 271.2 141.3) (angle 90) (layer B.SilkS) (width 0.15) (tstamp 5CB09AD6))
@@ -8498,7 +8509,7 @@
   (gr_text 0 (at 168.99 30.29 350) (layer Dwgs.User)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text TC2060 (at 265.6 114.3) (layer B.SilkS) (tstamp 5C5084A4)
+  (gr_text TC2060 (at 261.2 109.8) (layer B.SilkS) (tstamp 5C5084A4)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_text NL (at 232.9 150.5 90) (layer F.SilkS) (tstamp 5A297935)

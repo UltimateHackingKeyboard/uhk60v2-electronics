@@ -553,7 +553,7 @@
   (gr_arc (start 157.158682 95.545752) (end 157.658677 95.545751) (angle -99.76340097) (layer Edge.Cuts) (width 0.1) (tstamp 5C1A50D7))
   (gr_line (start 135.27385 98.805944) (end 157.073845 95.052999) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5C1A50DA))
   (gr_arc (start 122.358734 108.576078) (end 121.858673 108.576147) (angle -89.94233769) (layer Edge.Cuts) (width 0.1) (tstamp 5C1A50D6))
-  (gr_text "PCB ID:\nuhk60v2_display_1.0.0" (at 123.175 106.175) (layer F.SilkS) (tstamp 528901BF)
+  (gr_text "PCB ID:\nuhk60v2_display_2.0.0" (at 122.575 106.175) (layer F.SilkS) (tstamp 528901BF)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left))
   )
   (gr_text "KHN30472CRY1D\nLED display" (at 145.175 103.575) (layer F.SilkS) (tstamp 583E06AA)

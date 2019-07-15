@@ -4381,7 +4381,7 @@ U 1 1 5C0F55BE
 P 1900 7250
 F 0 "P5" V 1850 7200 60  0000 L CNN
 F 1 "CONN_10" V 1950 7050 60  0000 L CNN
-F 2 "UGL:Tag_Connect_2x5_Header_With_Legs" H 2027 7139 60  0001 L CNN
+F 2 "UGL:Tag_Connect_2x5_Header_With_Legs_Parallel_Numbering" H 2027 7139 60  0001 L CNN
 F 3 "" H 1900 7050 60  0000 C CNN
 	1    1900 7250
 	-1   0    0    -1  

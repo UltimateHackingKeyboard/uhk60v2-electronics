@@ -3668,7 +3668,7 @@ U 1 1 5BCEC0CB
 P 2200 6300
 F 0 "P7" V 2150 6300 60  0000 C CNN
 F 1 "CONN_10" V 2250 6300 60  0000 C CNN
-F 2 "UGL:Tag_Connect_2x5_Header_With_Legs" H 2200 6100 60  0001 C CNN
+F 2 "UGL:Tag_Connect_2x5_Header_With_Legs_Parallel_Numbering" H 2200 6100 60  0001 C CNN
 F 3 "" H 2200 6100 60  0000 C CNN
 	1    2200 6300
 	-1   0    0    -1  

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk60v2-electronics/right-main/right-main.sch)
-    (date "Sat 10 Aug 2019 13:03:46 CEST")
+    (date "Sat 10 Aug 2019 22:55:23 CEST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1583,7 +1583,7 @@
       (sheetpath (names "/RGB LED matrix/") (tstamps /5B9A2403/))
       (tstamp 5BA8ABAF))
     (comp (ref D111)
-      (value ugl:RGB_LED)
+      (value RGB_LED)
       (footprint UGL:RGB_LED)
       (libsource (lib ugl) (part RGB_LED) (description ""))
       (sheetpath (names "/RGB LED matrix/") (tstamps /5B9A2403/))

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:right-main-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -5046,17 +5046,5 @@ Wire Wire Line
 	1600 1000 2650 1000
 Wire Wire Line
 	1700 1100 2800 1100
-$Comp
-L ugl:CONN_1 P8
-U 1 1 5D598A74
-P 1950 2100
-F 0 "P8" V 1969 2141 60  0000 L CNN
-F 1 "CONN_1" H 1950 2200 60  0001 C CNN
-F 2 "UGL:UHK_Connector_GND10_Pad" H 1950 2100 60  0001 C CNN
-F 3 "" H 1950 2100 60  0000 C CNN
-	1    1950 2100
-	0    1    1    0   
-$EndComp
-Connection ~ 1950 2100
 NoConn ~ 6800 3350
 $EndSCHEMATC

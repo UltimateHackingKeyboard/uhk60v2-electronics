@@ -1,5 +1,5 @@
-update=Sat 22 Sep 2018 15:18:51 CEST
-last_client=kicad
+update=Tue 13 Aug 2019 03:11:37 CEST
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -61,3 +61,13 @@ SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

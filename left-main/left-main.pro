@@ -1,5 +1,5 @@
-update=Sat 10 Aug 2019 23:29:04 CEST
-last_client=eeschema
+update=Thu 15 Aug 2019 23:41:29 CEST
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -10,6 +10,16 @@ version=1
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -44,8 +54,8 @@ dPairWidth1=0.254
 dPairGap1=0.254
 dPairViaGap1=0.25
 SilkLineWidth=0.15
-SilkTextSizeV=1
-SilkTextSizeH=1
+SilkTextSizeV=0.75
+SilkTextSizeH=0.75
 SilkTextSizeThickness=0.15
 SilkTextItalic=0
 SilkTextUpright=1
@@ -245,13 +255,3 @@ uViaDrill=0.381
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

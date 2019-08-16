@@ -398,6 +398,7 @@
 
   (module UGL:UHK_Logo_12x3.4_mm (layer B.Cu) (tedit 0) (tstamp 5D55D76E)
     (at 169.6 145.8 180)
+    (attr virtual)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )

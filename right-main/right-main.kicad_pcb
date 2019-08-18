@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.2032)
+    (last_trace_width 0.3048)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -452,7 +452,7 @@
     (fp_text reference SW53 (at 3.070007 -5.6) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (fp_text value VAL** (at 8.570007 -4.1) (layer F.SilkS)
+    (fp_text value SS-01D (at 8.570007 -4.1) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1778)))
     )
     (fp_line (start -10.4 3.2) (end -10.4 -3.2) (layer F.SilkS) (width 0.15))
@@ -741,7 +741,7 @@
     (fp_text reference D157 (at -4.176199 0.066414 128) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.086522 -0.029532 38) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.086522 -0.029532 38) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -766,7 +766,7 @@
     (fp_text reference D156 (at -4.229988 0.02346 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.07654 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.07654 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -791,7 +791,7 @@
     (fp_text reference D155 (at 4.410015 0.02346 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.010015 0.02346 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.010015 0.02346 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -816,7 +816,7 @@
     (fp_text reference D154 (at 4.45 -0.07654 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.05 -0.07654 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.05 -0.07654 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -841,7 +841,7 @@
     (fp_text reference D152 (at -5.11999 0.02346) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.07654 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.07654 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -866,7 +866,7 @@
     (fp_text reference D147 (at 4.349999 0.01918 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.050001 0.01918 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.050001 0.01918 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -891,7 +891,7 @@
     (fp_text reference D146 (at -4.149997 0.01918 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.01918 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.01918 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -916,7 +916,7 @@
     (fp_text reference D145 (at -4.300009 -1.68082 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.01918 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.01918 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -941,7 +941,7 @@
     (fp_text reference D144 (at -4.25276 0.02426 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.04724 0.02426 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.04724 0.02426 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -966,7 +966,7 @@
     (fp_text reference D143 (at -4.300003 0.01918 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.000003 0.01918 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.000003 0.01918 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -991,7 +991,7 @@
     (fp_text reference D142 (at -4.25 0.01918 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.05 -0.08082 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.05 -0.08082 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1016,7 +1016,7 @@
     (fp_text reference D137 (at -4.239991 0.02252 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.07748 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.07748 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1041,7 +1041,7 @@
     (fp_text reference D136 (at 3.269999 1.92252 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.030001 -0.07748 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.030001 -0.07748 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1066,7 +1066,7 @@
     (fp_text reference D135 (at -4.280008 1.02252 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.07748 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.07748 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1091,7 +1091,7 @@
     (fp_text reference D134 (at -4.330014 0.02252 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.07748 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.07748 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1116,7 +1116,7 @@
     (fp_text reference D133 (at -4.380004 0.02252 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.019996 -0.07748 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.019996 -0.07748 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1141,7 +1141,7 @@
     (fp_text reference D132 (at -4.329995 0.02252 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.02252 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.02252 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1166,7 +1166,7 @@
     (fp_text reference D141 (at -4.280001 0.02252 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.02252 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.02252 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1191,7 +1191,7 @@
     (fp_text reference D127 (at -4.387172 0.02332 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.02332 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.02332 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1216,7 +1216,7 @@
     (fp_text reference D126 (at -4.250003 0.02332 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.02332 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.02332 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1241,7 +1241,7 @@
     (fp_text reference D125 (at 4.399985 0.02332 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.07668 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.07668 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1266,7 +1266,7 @@
     (fp_text reference D124 (at -4.249997 0.02332 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.049997 0.02332 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.049997 0.02332 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1291,7 +1291,7 @@
     (fp_text reference D123 (at -4.299993 0.02332 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.02332 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.02332 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1316,7 +1316,7 @@
     (fp_text reference D122 (at -4.350006 0.02332 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.050006 -0.07668 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.050006 -0.07668 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1341,7 +1341,7 @@
     (fp_text reference D121 (at 4.399997 -0.07668 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.000003 -0.07668 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.000003 -0.07668 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1366,7 +1366,7 @@
     (fp_text reference D131 (at 4.45 -0.07668 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.07668 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.07668 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1391,7 +1391,7 @@
     (fp_text reference D117 (at -4.314993 0.0165 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.0835 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.0835 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1416,7 +1416,7 @@
     (fp_text reference D116 (at -4.280008 0.0165 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.1165 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.1165 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1441,7 +1441,7 @@
     (fp_text reference D115 (at -4.329989 0.0165 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.029989 0.0165 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.029989 0.0165 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1466,7 +1466,7 @@
     (fp_text reference D114 (at -4.280001 0.0165 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.280001 -0.0835 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.280001 -0.0835 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1491,7 +1491,7 @@
     (fp_text reference D113 (at -4.229998 0.0165 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.0165 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.0165 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1516,7 +1516,7 @@
     (fp_text reference D112 (at -4.379995 0.0165 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.020005 0.0165 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.020005 0.0165 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))
@@ -1541,7 +1541,7 @@
     (fp_text reference D111 (at -4.191683 -0.011554 100) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.032417 0.011038 10) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.032417 0.011038 10) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.7 0.5) (end 3.7 1.1) (layer B.SilkS) (width 0.15))

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk60v2-electronics/right-main/right-main.sch)
-    (date "Thu 15 Aug 2019 01:54:24 CEST")
+    (date "Mon 19 Aug 2019 00:52:38 CEST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

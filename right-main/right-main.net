@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk60v2-electronics/right-main/right-main.sch)
-    (date "Mon 19 Aug 2019 12:31:43 CEST")
+    (date "Mon 19 Aug 2019 18:10:47 CEST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -634,7 +634,7 @@
       (tstamp 577D77F4))
     (comp (ref D1)
       (value LED)
-      (footprint UGL:SM0805_Diode)
+      (footprint UGL:SM0603_Diode)
       (libsource (lib ugl) (part LED) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 577D93E4))

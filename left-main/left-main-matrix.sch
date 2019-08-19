@@ -712,17 +712,6 @@ Wire Wire Line
 	6600 3800 6600 3500
 Wire Wire Line
 	6950 3950 6900 3950
-$Comp
-L ugl:RGB_LED D1411
-U 1 1 5BA23FDC
-P 2900 3950
-F 0 "D1411" V 2750 4050 40  0000 C CNN
-F 1 "RGB_LED" H 2900 3700 40  0001 C CNN
-F 2 "UGL:RGB_LED" H 2900 3800 60  0001 C CNN
-F 3 "" H 2900 3800 60  0000 C CNN
-	1    2900 3950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7200 4100 7050 4100
 Wire Wire Line
@@ -1051,27 +1040,19 @@ Wire Wire Line
 	7700 1550 7750 1550
 Connection ~ 7700 1250
 Wire Wire Line
-	7700 1250 8250 1250
-Wire Wire Line
 	7650 1350 7650 1700
 Wire Wire Line
 	7650 1700 7750 1700
 Connection ~ 7650 1350
-Wire Wire Line
-	7650 1350 8200 1350
 Wire Wire Line
 	7600 1450 7600 1850
 Wire Wire Line
 	7600 1850 7750 1850
 Connection ~ 7600 1450
 Wire Wire Line
-	7600 1450 8150 1450
-Wire Wire Line
 	8250 1250 8250 1550
 Wire Wire Line
 	8250 1550 8300 1550
-Wire Wire Line
-	8250 2000 8800 2000
 Wire Wire Line
 	8200 1350 8200 1700
 Wire Wire Line
@@ -1089,11 +1070,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2600 8850 2600
 Wire Wire Line
-	8750 2100 8750 2450
-Wire Wire Line
 	8750 2450 8850 2450
-Wire Wire Line
-	8800 2000 8800 2300
 Wire Wire Line
 	8800 2300 8850 2300
 Wire Wire Line
@@ -1145,8 +1122,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 2300 7750 2300
 Connection ~ 7700 2000
-Wire Wire Line
-	7700 2000 8250 2000
 Wire Wire Line
 	7650 2100 7650 2450
 Wire Wire Line
@@ -1206,37 +1181,6 @@ Wire Wire Line
 	2700 3600 2700 3950
 Wire Wire Line
 	6050 2750 6050 3050
-Wire Wire Line
-	2800 4600 2650 4600
-Wire Wire Line
-	2800 4450 2700 4450
-Wire Wire Line
-	2800 4300 2750 4300
-$Comp
-L ugl:RGB_LED D1412
-U 1 1 5BE0C81E
-P 2900 4450
-F 0 "D1412" V 2750 4550 40  0000 C CNN
-F 1 "RGB_LED" H 2900 4200 40  0001 C CNN
-F 2 "UGL:RGB_LED" H 2900 4300 60  0001 C CNN
-F 3 "" H 2900 4300 60  0000 C CNN
-	1    2900 4450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 4450 3050 4450
-Wire Wire Line
-	3100 4450 3100 3950
-Connection ~ 3100 3950
-Wire Wire Line
-	2750 4300 2750 3800
-Connection ~ 2750 3800
-Wire Wire Line
-	2700 4450 2700 3950
-Connection ~ 2700 3950
-Wire Wire Line
-	2650 4600 2650 4100
-Connection ~ 2650 4100
 $Comp
 L ugl:RGB_LED D156
 U 1 1 5BEEEF84
@@ -1288,8 +1232,6 @@ Connection ~ 8250 2000
 Connection ~ 9150 2450
 Wire Wire Line
 	9150 2450 9150 3200
-Wire Wire Line
-	9150 1000 9150 2450
 $Comp
 L ugl:RGB_LED D127
 U 1 1 5BF29148
@@ -1312,4 +1254,68 @@ F 3 "" H 5650 3050 60  0000 C CNN
 	1    5650 3200
 	-1   0    0    -1  
 $EndComp
+$Comp
+L ugl:RGB_LED D1412
+U 1 1 5BE0C81E
+P 2900 3950
+F 0 "D1412" V 2750 4050 40  0000 C CNN
+F 1 "RGB_LED" H 2900 3700 40  0001 C CNN
+F 2 "UGL:RGB_LED" H 2900 3800 60  0001 C CNN
+F 3 "" H 2900 3800 60  0000 C CNN
+	1    2900 3950
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9150 1700
+Wire Wire Line
+	9150 1700 9150 2450
+Wire Wire Line
+	9150 1000 9150 1700
+Wire Wire Line
+	8750 2100 8750 2450
+Wire Wire Line
+	7700 2000 8250 2000
+Wire Wire Line
+	7700 1250 8250 1250
+Wire Wire Line
+	7650 1350 8200 1350
+Wire Wire Line
+	7600 1450 8150 1450
+Wire Wire Line
+	8800 2000 8800 2300
+Wire Wire Line
+	8250 2000 8800 2000
+$Comp
+L ugl:RGB_LED D1411
+U 1 1 5BA23FDC
+P 8950 1700
+F 0 "D1411" V 8800 1800 40  0000 C CNN
+F 1 "RGB_LED" H 8950 1450 40  0001 C CNN
+F 2 "UGL:RGB_LED" H 8950 1550 60  0001 C CNN
+F 3 "" H 8950 1550 60  0000 C CNN
+	1    8950 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1700 9100 1700
+Wire Wire Line
+	8850 1550 8800 1550
+Wire Wire Line
+	8800 1550 8800 1250
+Wire Wire Line
+	8800 1250 8250 1250
+Connection ~ 8250 1250
+Wire Wire Line
+	8850 1700 8750 1700
+Wire Wire Line
+	8750 1700 8750 1350
+Wire Wire Line
+	8750 1350 8200 1350
+Connection ~ 8200 1350
+Wire Wire Line
+	8850 1850 8700 1850
+Wire Wire Line
+	8700 1850 8700 1450
+Wire Wire Line
+	8700 1450 8150 1450
+Connection ~ 8150 1450
 $EndSCHEMATC

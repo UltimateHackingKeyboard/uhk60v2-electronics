@@ -3048,10 +3048,6 @@ F 3 "" H 7750 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 2400 8300 2450
-Wire Wire Line
-	8550 2650 8300 2650
-Wire Wire Line
 	8550 2750 8500 2750
 $Comp
 L power:GND #PWR07
@@ -3075,32 +3071,10 @@ F 3 "" H 7750 3900 50  0000 C CNN
 	1    7750 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L ICEDLeft:+5V #PWR013
-U 1 1 5C07E0F6
-P 8300 2400
-F 0 "#PWR013" H 8300 2250 50  0001 C CNN
-F 1 "+5V" H 8300 2500 40  0000 C CNN
-F 2 "" H 8300 2400 50  0000 C CNN
-F 3 "" H 8300 2400 50  0000 C CNN
-	1    8300 2400
-	1    0    0    -1  
-$EndComp
 Text Label 8550 2750 2    40   ~ 0
 SDB
 Text Label 8550 2650 2    40   ~ 0
 INTB
-$Comp
-L ugl:R R4
-U 1 1 5C07E0FE
-P 8300 2550
-F 0 "R4" H 8350 2500 40  0000 C CNN
-F 1 "4.7K" H 8350 2450 40  0000 C CNN
-F 2 "UGL:SM0603" H 8300 2550 60  0001 C CNN
-F 3 "" H 8300 2550 60  0000 C CNN
-	1    8300 2550
-	0    -1   -1   0   
-$EndComp
 Text Label 8550 2550 2    40   ~ 0
 SCL
 Text Label 8550 2450 2    40   ~ 0
@@ -3753,4 +3727,5 @@ F 3 "" H 5250 6350 60  0001 C CNN
 	1    5250 6350
 	1    0    0    1   
 $EndComp
+NoConn ~ 8550 2650
 $EndSCHEMATC

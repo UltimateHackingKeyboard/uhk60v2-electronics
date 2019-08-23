@@ -5,7 +5,7 @@
     (drawings 651)
     (tracks 3333)
     (zones 0)
-    (modules 162)
+    (modules 159)
     (nets 105)
   )
 
@@ -5315,51 +5315,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module Input_Club:FID locked (layer B.Cu) (tedit 5584E943) (tstamp 57896706)
-    (at 142.60046 146.21872)
-    (descr FID)
-    (tags FIDUCIAL)
-    (attr virtual)
-    (fp_text reference FID1 (at -3 1.2) (layer B.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
-    )
-    (fp_text value FIDUCIAL (at 0 2.1) (layer B.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
-    )
-    (pad "" smd circle (at 0 0) (size 1 1) (layers B.Cu B.Mask)
-      (solder_mask_margin 1) (clearance 1.2))
-  )
-
-  (module Input_Club:FID locked (layer B.Cu) (tedit 5584E943) (tstamp 57896767)
-    (at 154.60046 53.91872)
-    (descr FID)
-    (tags FIDUCIAL)
-    (attr virtual)
-    (fp_text reference FID2 (at 0 -2.3) (layer B.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
-    )
-    (fp_text value FIDUCIAL (at 0 2.18128) (layer B.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
-    )
-    (pad "" smd circle (at 0 0) (size 1 1) (layers B.Cu B.Mask)
-      (solder_mask_margin 1) (clearance 1.2))
-  )
-
-  (module Input_Club:FID locked (layer B.Cu) (tedit 5584E943) (tstamp 5789679F)
-    (at 255.4 54.5 180)
-    (descr FID)
-    (tags FIDUCIAL)
-    (attr virtual)
-    (fp_text reference FID3 (at 2.6 1.7) (layer B.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
-    )
-    (fp_text value FIDUCIAL (at 0 -2.1 180) (layer B.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
-    )
-    (pad "" smd circle (at 0 0 180) (size 1 1) (layers B.Cu B.Mask)
-      (solder_mask_margin 1) (clearance 1.2))
   )
 
   (module UGL:hole_3mm locked (layer F.Cu) (tedit 5788E830) (tstamp 582BB94A)

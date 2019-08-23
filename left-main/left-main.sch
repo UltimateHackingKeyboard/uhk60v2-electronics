@@ -379,8 +379,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 6050 1600 6050
 Wire Wire Line
-	4800 5850 4700 5850
-Wire Wire Line
 	4800 5950 4750 5950
 Wire Wire Line
 	7150 1950 7150 1800
@@ -1016,17 +1014,6 @@ F 3 "" H 4250 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ICEDLeft:+5V #PWR021
-U 1 1 576650CC
-P 4250 5850
-F 0 "#PWR021" H 4250 5700 50  0001 C CNN
-F 1 "+5V" V 4300 5900 40  0000 C CNN
-F 2 "" H 4250 5850 50  0000 C CNN
-F 3 "" H 4250 5850 50  0000 C CNN
-	1    4250 5850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+3V3 #PWR019
 U 1 1 5764F424
 P 1600 5850
@@ -1469,17 +1456,6 @@ Text Label 1300 6150 0    40   ~ 0
 SWDCLK
 Text Notes 1450 4900 2    60   ~ 12
 ARM SWD headers
-$Comp
-L ugl:R R20
-U 1 1 574A66D0
-P 4600 5850
-F 0 "R20" H 4600 5950 40  0000 C CNN
-F 1 "100K" H 4600 5900 40  0000 C CNN
-F 2 "UGL:SM0603" H 4600 5850 60  0001 C CNN
-F 3 "" H 4600 5850 60  0000 C CNN
-	1    4600 5850
-	1    0    0    -1  
-$EndComp
 Text Label 4800 5750 2    40   ~ 0
 SCL
 Text Label 4800 5650 2    40   ~ 0
@@ -2825,8 +2801,6 @@ F 3 "" H 4450 5500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4250 5850 4500 5850
-Wire Wire Line
 	3900 5200 4100 5200
 Wire Wire Line
 	4100 5200 4100 5300
@@ -3001,4 +2975,5 @@ $EndComp
 Wire Wire Line
 	4450 5050 4450 5400
 Connection ~ 4450 5400
+NoConn ~ 4800 5850
 $EndSCHEMATC

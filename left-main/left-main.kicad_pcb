@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "UHK 60 v2 - Left Half")
-    (rev 2.0.0)
+    (rev 3.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.2032)
+    (last_trace_width 0.3048)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)

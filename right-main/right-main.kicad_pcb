@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "UHK 60 v2 - Right Half")
-    (rev 2.0.0)
+    (rev 3.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -73,7 +73,7 @@
     (solder_mask_min_width 0.25)
     (aux_axis_origin 121.4 153.3)
     (grid_origin 165.7 147.7)
-    (visible_elements 7FFFDFFF)
+    (visible_elements 7FFFCFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)

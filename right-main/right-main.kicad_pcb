@@ -10282,14 +10282,31 @@
   (segment (start 236.5 95.67577) (end 234.37577 97.8) (width 0.2032) (layer B.Cu) (net 139))
   (segment (start 234.37577 97.8) (end 234.2 97.8) (width 0.2032) (layer B.Cu) (net 139))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5D61BBF5) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5D62F4C3) (hatch edge 0.508)
     (connect_pads (clearance 0.3048))
     (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 276.6 157.9) (xy 116.7 157.8) (xy 116.4 34.45) (xy 126.6 34.6) (xy 126.6 24.9)
-        (xy 276.6 24.9)
+        (xy 175.8 143.9) (xy 175.8 147.5) (xy 163.4 147.5) (xy 163.4 143.9)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 175.673 147.373) (xy 163.527 147.373) (xy 163.527 144.027) (xy 175.673 144.027)
+      )
+    )
+  )
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5D62F4C0) (hatch edge 0.508)
+    (connect_pads (clearance 0.3048))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 129.7 48.7) (xy 159.7 48.7) (xy 161.7 46.7) (xy 164.7 31.7) (xy 168.7 28.7)
+        (xy 193.7 32.7) (xy 192.7 50.7) (xy 272.7 50.7) (xy 272.7 153.7) (xy 124.7 153.7)
+        (xy 124.7 128.7) (xy 135.7 128.7) (xy 135.7 106.7) (xy 125.7 106.7) (xy 125.7 87.7)
+        (xy 120.7 87.7) (xy 120.7 71.7) (xy 129.7 71.7)
       )
     )
     (filled_polygon
@@ -12916,21 +12933,6 @@
         (xy 254.247 151.683) (xy 254.247 151.937) (xy 254.227 151.937) (xy 254.227 151.957) (xy 253.973 151.957)
         (xy 253.973 151.937) (xy 252.957 151.937) (xy 252.957 151.957) (xy 252.703 151.957) (xy 252.703 151.937)
         (xy 252.683 151.937) (xy 252.683 151.683) (xy 252.703 151.683) (xy 252.703 151.663) (xy 252.957 151.663)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5D61BBF2) (hatch edge 0.508)
-    (connect_pads (clearance 0.3048))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 175.8 143.9) (xy 175.8 147.5) (xy 163.4 147.5) (xy 163.4 143.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 175.673 147.373) (xy 163.527 147.373) (xy 163.527 144.027) (xy 175.673 144.027)
       )
     )
   )

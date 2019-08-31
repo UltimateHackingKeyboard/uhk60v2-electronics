@@ -1249,17 +1249,6 @@ F 3 "" H 1500 4650 60  0001 C CNN
 	1    1500 4650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L ugl:C C12
-U 1 1 575609B8
-P 2200 4650
-F 0 "C12" H 2200 4750 40  0000 C CNN
-F 1 "0.1uF" H 2200 4540 40  0000 C CNN
-F 2 "UGL:SM0603" H 2200 4650 60  0001 C CNN
-F 3 "" H 2200 4650 60  0001 C CNN
-	1    2200 4650
-	0    -1   -1   0   
-$EndComp
 Text Label 2050 4850 2    40   ~ 0
 SDA
 Text Label 2050 5200 2    40   ~ 0
@@ -2134,13 +2123,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 5400 1600 5400
 Wire Wire Line
-	1850 4550 2200 4550
-Wire Wire Line
-	2400 5050 2400 5400
-Wire Wire Line
 	2400 4500 2400 4550
-Connection ~ 2400 4550
-Connection ~ 2400 5400
 Wire Notes Line
 	7600 4150 7600 1550
 Wire Notes Line
@@ -2205,9 +2188,6 @@ Wire Wire Line
 	1050 5150 1050 5600
 Wire Wire Line
 	1050 4550 1300 4550
-Connection ~ 2200 5050
-Wire Wire Line
-	1600 5050 2200 5050
 Wire Wire Line
 	1050 4750 1050 4550
 Connection ~ 1600 5400
@@ -2220,23 +2200,16 @@ Wire Wire Line
 Wire Wire Line
 	1050 4950 1400 4950
 Connection ~ 1500 4750
-Wire Wire Line
-	2200 4750 1500 4750
 Connection ~ 1300 4550
 Wire Wire Line
 	1050 4850 1600 4850
 Wire Wire Line
 	1400 5200 1600 5200
 Connection ~ 1500 4550
-Connection ~ 2200 4550
 Wire Wire Line
 	1200 5050 1050 5050
 Wire Wire Line
 	1200 5400 1200 5050
-Wire Wire Line
-	2200 5400 2200 5050
-Connection ~ 2200 4750
-Connection ~ 2200 5400
 Wire Wire Line
 	1900 5200 2050 5200
 Connection ~ 2650 3500
@@ -2623,25 +2596,12 @@ Wire Wire Line
 Wire Notes Line
 	7000 6550 7000 4150
 Connection ~ 3150 850 
-$Comp
-L device:CP1_Small C20
-U 1 1 599B3082
-P 2400 4950
-F 0 "C20" V 2300 4900 40  0000 L CNN
-F 1 "10uF" V 2500 4875 40  0000 L CNN
-F 2 "UGL:SM1206_Diode" H 2400 4950 50  0001 C CNN
-F 3 "" H 2400 4950 50  0001 C CNN
-	1    2400 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 1000 2850 1000
 Wire Wire Line
 	2800 1100 3050 1100
 Wire Wire Line
 	3200 2650 3400 2650
-Wire Wire Line
-	2400 4550 2400 4850
 Wire Wire Line
 	2400 5400 2400 5450
 Wire Wire Line
@@ -2659,10 +2619,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 3750 7250 3750
 Wire Wire Line
-	2200 5050 2200 4750
-Wire Wire Line
-	1600 5400 2200 5400
-Wire Wire Line
 	1600 5200 1700 5200
 Wire Wire Line
 	1600 4850 1700 4850
@@ -2672,10 +2628,6 @@ Wire Wire Line
 	1300 4550 1500 4550
 Wire Wire Line
 	1500 4550 1650 4550
-Wire Wire Line
-	2200 4550 2400 4550
-Wire Wire Line
-	2200 5400 2400 5400
 Wire Wire Line
 	2650 3500 2650 3850
 Wire Wire Line
@@ -2985,17 +2937,6 @@ Connection ~ 8450 1900
 Wire Wire Line
 	8450 1800 8450 1900
 $Comp
-L device:CP1_Small C2
-U 1 1 5C07E08A
-P 7950 4100
-F 0 "C2" H 7900 3900 40  0000 L CNN
-F 1 "10uF" H 7850 3850 40  0000 L CNN
-F 2 "UGL:SM1206_Diode" H 7950 4100 50  0001 C CNN
-F 3 "" H 7950 4100 50  0001 C CNN
-	1    7950 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L ICEDLeft:+5V #PWR018
 U 1 1 5C07E091
 P 8450 1800
@@ -3028,23 +2969,15 @@ F 3 "" H 8000 2300 60  0000 C CNN
 	1    8000 2300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7950 3950 8250 3950
-Wire Wire Line
-	7950 4000 7950 3950
-Wire Wire Line
-	7950 4250 7750 4250
-Wire Wire Line
-	7950 4200 7950 4250
 $Comp
 L device:CP1_Small C1
 U 1 1 5C07E0E0
-P 7750 4100
-F 0 "C1" H 7600 4000 40  0000 L CNN
-F 1 "10uF" H 7550 3950 40  0000 L CNN
-F 2 "UGL:SM1206_Diode" H 7750 4100 50  0001 C CNN
-F 3 "" H 7750 4100 50  0001 C CNN
-	1    7750 4100
+P 7900 4100
+F 0 "C1" H 7750 4000 40  0000 L CNN
+F 1 "10uF" H 7700 3950 40  0000 L CNN
+F 2 "UGL:SM1206_Diode" H 7900 4100 50  0001 C CNN
+F 3 "" H 7900 4100 50  0001 C CNN
+	1    7900 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3052,23 +2985,23 @@ Wire Wire Line
 $Comp
 L power:GND #PWR07
 U 1 1 5C07E0EA
-P 7750 4300
-F 0 "#PWR07" H 7750 4300 30  0001 C CNN
-F 1 "GND" H 7750 4230 30  0001 C CNN
-F 2 "" H 7750 4300 60  0000 C CNN
-F 3 "" H 7750 4300 60  0000 C CNN
-	1    7750 4300
+P 7900 4300
+F 0 "#PWR07" H 7900 4300 30  0001 C CNN
+F 1 "GND" H 7900 4230 30  0001 C CNN
+F 2 "" H 7900 4300 60  0000 C CNN
+F 3 "" H 7900 4300 60  0000 C CNN
+	1    7900 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L ICEDLeft:+5V #PWR06
 U 1 1 5C07E0F0
-P 7750 3900
-F 0 "#PWR06" H 7750 3750 50  0001 C CNN
-F 1 "+5V" H 7750 4050 40  0000 C CNN
-F 2 "" H 7750 3900 50  0000 C CNN
-F 3 "" H 7750 3900 50  0000 C CNN
-	1    7750 3900
+P 7900 3900
+F 0 "#PWR06" H 7900 3750 50  0001 C CNN
+F 1 "+5V" H 7900 4050 40  0000 C CNN
+F 2 "" H 7900 3900 50  0000 C CNN
+F 3 "" H 7900 3900 50  0000 C CNN
+	1    7900 3900
 	1    0    0    -1  
 $EndComp
 Text Label 8550 2750 2    40   ~ 0
@@ -3179,19 +3112,6 @@ Text Label 2250 7300 0    40   ~ 0
 USB_D+
 Text Label 2250 7200 0    40   ~ 0
 USB_D-
-Wire Wire Line
-	7750 4200 7750 4250
-Connection ~ 7750 4250
-Wire Wire Line
-	7750 4250 7750 4300
-Wire Wire Line
-	7750 4000 7750 3950
-Wire Wire Line
-	7950 3950 7750 3950
-Connection ~ 7950 3950
-Connection ~ 7750 3950
-Wire Wire Line
-	7750 3950 7750 3900
 Wire Wire Line
 	8400 3900 8550 3900
 Wire Wire Line
@@ -3728,4 +3648,40 @@ F 3 "" H 5250 6350 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 NoConn ~ 8550 2650
+$Comp
+L ugl:C C12
+U 1 1 575609B8
+P 2400 4650
+F 0 "C12" H 2400 4750 40  0000 C CNN
+F 1 "0.1uF" H 2400 4540 40  0000 C CNN
+F 2 "UGL:SM0603" H 2400 4650 60  0001 C CNN
+F 3 "" H 2400 4650 60  0001 C CNN
+	1    2400 4650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2400 4550
+Wire Wire Line
+	1600 5400 2400 5400
+Wire Wire Line
+	1850 4550 2400 4550
+Wire Wire Line
+	1500 4750 2400 4750
+Wire Wire Line
+	1600 5050 2400 5050
+Wire Wire Line
+	2400 4750 2400 5050
+Connection ~ 2400 4750
+Wire Wire Line
+	2400 5050 2400 5400
+Connection ~ 2400 5050
+Connection ~ 2400 5400
+Wire Wire Line
+	7900 4200 7900 4300
+Wire Wire Line
+	7900 3900 7900 3950
+Wire Wire Line
+	8250 3950 7900 3950
+Connection ~ 7900 3950
+Wire Wire Line
+	7900 3950 7900 4000
 $EndSCHEMATC

@@ -3087,9 +3087,9 @@ F 3 "" H 1900 7050 60  0000 C CNN
 	1    1900 7250
 	-1   0    0    -1  
 $EndComp
-Text Label 2250 7000 0    50   ~ 0
+Text Label 2250 7000 0    40   ~ 0
 SCL
-Text Label 2250 7100 0    50   ~ 0
+Text Label 2250 7100 0    40   ~ 0
 SDA
 Wire Wire Line
 	2250 7400 2650 7400
@@ -3109,9 +3109,9 @@ $EndComp
 Wire Wire Line
 	2700 6900 2250 6900
 Text Label 2250 7300 0    40   ~ 0
-USB_D+
+USB_D_IN+
 Text Label 2250 7200 0    40   ~ 0
-USB_D-
+USB_D_IN-
 Wire Wire Line
 	8400 3900 8550 3900
 Wire Wire Line

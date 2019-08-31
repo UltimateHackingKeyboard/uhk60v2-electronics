@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk60v2-electronics/left-main/left-main.sch)
-    (date "Sat 31 Aug 2019 14:47:02 CEST")
+    (date "Sat 31 Aug 2019 15:01:32 CEST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -45,7 +45,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC1B968))
     (comp (ref C9)
-      (value 10uF)
+      (value 22uF)
       (footprint UGL:SM1206_Diode)
       (libsource (lib device) (part CP1_Small) (description "Polarized capacitor, small US symbol"))
       (sheetpath (names /) (tstamps /))

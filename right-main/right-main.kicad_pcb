@@ -4108,7 +4108,7 @@
     (fp_text reference C1 (at 4.2 0 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 10uF (at 3.1 0.1 180) (layer B.SilkS)
+    (fp_text value 22uF (at 3.1 0.1 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -2.8 0.9) (end -2.8 -0.9) (layer B.SilkS) (width 0.15))

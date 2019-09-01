@@ -6587,7 +6587,7 @@
   (gr_text 0.4 (at 152.36746 83.26536) (layer Dwgs.User) (tstamp 5C1174F3)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "The Dwgs.User layer contains component height limits\nspecified in millimeters per soft keepout area.\nBy default component height is limited to 2.4 mm." (at 130.953 5.55) (layer Dwgs.User)
+  (gr_text "The Dwgs.User layer contains component height limits\nspecified in millimeters per soft keepout area.\nBy default, component height is limited to 2.4 mm." (at 130.953 5.55) (layer Dwgs.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text MERGE_SENSE (at 129.8 146.6) (layer F.SilkS) (tstamp 5C501AC4)

@@ -277,7 +277,7 @@
   (gr_text "KHN30472CRY1D\nLED display" (at 148.875 103.675) (layer F.SilkS) (tstamp 583E06AA)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "1.55mm board thickness\nblack solder mask\nwhite silk screen" (at 90.575 95.275) (layer Cmts.User)
+  (gr_text "1.55mm board thickness\nblack solder mask\nwhite silk screen" (at 125.875 80.075) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
 

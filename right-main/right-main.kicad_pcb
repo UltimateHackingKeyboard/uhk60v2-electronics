@@ -5014,7 +5014,7 @@
   )
 
   (module UGL:SM0603 (layer B.Cu) (tedit 5C6C58A5) (tstamp 5C06ED11)
-    (at 237 98.9 90)
+    (at 237 98.9 270)
     (path /5C07E0A7)
     (attr smd)
     (fp_text reference C17 (at -1.9 0 180) (layer B.SilkS)
@@ -5025,10 +5025,10 @@
     )
     (fp_line (start -0.4 0.5) (end 0.4 0.5) (layer B.SilkS) (width 0.127))
     (fp_line (start 0.4 -0.5) (end -0.4 -0.5) (layer B.SilkS) (width 0.127))
-    (pad 1 smd rect (at -0.75 0 90) (size 0.8 0.8) (layers B.Cu B.Paste B.Mask)
-      (net 7 +5V))
-    (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.8) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -0.75 0 270) (size 0.8 0.8) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
+    (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.8) (layers B.Cu B.Paste B.Mask)
+      (net 7 +5V))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02540000082496551))
       (scale (xyz 0.5 0.5 0.5))

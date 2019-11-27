@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -418,7 +418,7 @@
     (fp_text reference SW55 (at -1.249992 4.42022) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (fp_text value VAL** (at 7.750008 3.92022) (layer F.SilkS)
+    (fp_text value SS-01D (at 7.750008 3.92022) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start -10.4 3.2) (end -10.4 -3.2) (layer F.SilkS) (width 0.15))
@@ -2235,7 +2235,7 @@
     (fp_text reference D131 (at -4.24 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.04 0.04 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.04 0.04 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2260,7 +2260,7 @@
     (fp_text reference D127 (at -4.2 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2285,7 +2285,7 @@
     (fp_text reference D125 (at -4.25 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.05 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.05 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2310,7 +2310,7 @@
     (fp_text reference D124 (at -4.199987 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.000013 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.000013 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2335,7 +2335,7 @@
     (fp_text reference D123 (at -4.16 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.06 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.06 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2360,7 +2360,7 @@
     (fp_text reference D122 (at 3.300012 -1.86) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.000012 0.04 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.000012 0.04 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2385,7 +2385,7 @@
     (fp_text reference D121 (at -4.16499 -0.06 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.03501 0.04 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.03501 0.04 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2410,7 +2410,7 @@
     (fp_text reference D117 (at -4.147913 0.022699 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.029918 -0.052961) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.029918 -0.052961) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2435,7 +2435,7 @@
     (fp_text reference D116 (at -4.13 -0.06 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.03 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.03 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2460,7 +2460,7 @@
     (fp_text reference D115 (at -4.179987 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.020013 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.020013 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2485,7 +2485,7 @@
     (fp_text reference D114 (at -3.23 -1.87 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.03 0.03 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.03 0.03 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2510,7 +2510,7 @@
     (fp_text reference D113 (at -3.981011 -0.106066 135) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.0174 0.037379 45) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.0174 0.037379 45) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2535,7 +2535,7 @@
     (fp_text reference D112 (at -4.13 0.84 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.03 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.03 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2560,7 +2560,7 @@
     (fp_text reference D111 (at -4.140501 0.044133 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.017401 0.037379) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.017401 0.037379) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2585,7 +2585,7 @@
     (fp_text reference D137 (at -4.16 0.05 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 -0.05 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 -0.05 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2610,7 +2610,7 @@
     (fp_text reference D135 (at -4 -0.07 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.03 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.03 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2635,7 +2635,7 @@
     (fp_text reference D134 (at -4.16 -0.06 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.04 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.04 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2660,7 +2660,7 @@
     (fp_text reference D133 (at -4.2 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.04 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.04 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2685,7 +2685,7 @@
     (fp_text reference D132 (at -4.15 -0.05 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.05 -0.05 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.05 -0.05 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2710,7 +2710,7 @@
     (fp_text reference D142 (at -4.19 0.03 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.01 0.03 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.01 0.03 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2735,7 +2735,7 @@
     (fp_text reference D144 (at -4.279987 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.020013 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.020013 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2760,7 +2760,7 @@
     (fp_text reference D153 (at -4.23 0.04 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.03 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.03 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2785,7 +2785,7 @@
     (fp_text reference D145 (at -4.23 0.03 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.03 -0.07 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.03 -0.07 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2810,7 +2810,7 @@
     (fp_text reference D146 (at -4.179993 0.04 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.020007 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.020007 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2835,7 +2835,7 @@
     (fp_text reference D147 (at -4.13 0.04 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.03 0.04 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.03 0.04 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2860,7 +2860,7 @@
     (fp_text reference D151 (at -4.15 -0.06 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.05 0.04 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.05 0.04 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2885,7 +2885,7 @@
     (fp_text reference D152 (at -4.19 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.01 0.04 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.01 0.04 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2910,7 +2910,7 @@
     (fp_text reference D154 (at -4.17 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0.03 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0.03 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2935,7 +2935,7 @@
     (fp_text reference D156 (at -4.1 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at 0 0.04 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at 0 0.04 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2960,7 +2960,7 @@
     (fp_text reference D1411 (at -4.25 -0.06 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.05 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.05 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -2985,7 +2985,7 @@
     (fp_text reference D1412 (at -4.23 0.04 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.03 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.03 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -3010,7 +3010,7 @@
     (fp_text reference D143 (at -4.23 0.04 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Val** (at -0.03 -0.06 180) (layer F.SilkS) hide
+    (fp_text value RGB_LED (at -0.03 -0.06 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (fp_line (start 3.9 0.45) (end 3.9 1.125) (layer B.SilkS) (width 0.15))
@@ -10809,69 +10809,6 @@
         (xy 183.484569 150.361156) (xy 183.449039 150.182533) (xy 183.379344 150.014273) (xy 183.278162 149.862844) (xy 183.149382 149.734064)
         (xy 182.997953 149.632882) (xy 182.9036 149.5938) (xy 184.345516 149.5938) (xy 184.3742 149.596625) (xy 184.402884 149.5938)
         (xy 184.402892 149.5938) (xy 184.488723 149.585346) (xy 184.598845 149.551941) (xy 184.642535 149.528588)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 156.015182 153.530551) (xy 156.048296 153.582896) (xy 155.531724 153.582896) (xy 155.564838 153.530551) (xy 155.579941 153.491346)
-        (xy 155.602445 153.498172) (xy 155.743012 153.512017) (xy 155.837008 153.512017) (xy 155.977575 153.498172) (xy 156.000079 153.491346)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 140.914801 142.021306) (xy 140.911975 142.05) (xy 140.923254 142.164523) (xy 140.956659 142.274644) (xy 140.95666 142.274645)
-        (xy 141.010907 142.376134) (xy 141.021878 142.389502) (xy 141.06562 142.442803) (xy 141.065623 142.442806) (xy 141.083911 142.46509)
-        (xy 141.106195 142.483378) (xy 147.484342 148.861526) (xy 147.50263 148.88381) (xy 147.524914 148.902098) (xy 147.524916 148.9021)
-        (xy 147.544564 148.918224) (xy 147.591586 148.956814) (xy 147.693075 149.011061) (xy 147.803197 149.044466) (xy 147.889028 149.05292)
-        (xy 147.889036 149.05292) (xy 147.91772 149.055745) (xy 147.946404 149.05292) (xy 149.712468 149.05292) (xy 149.785462 149.125914)
-        (xy 149.914426 149.212085) (xy 150.057724 149.271441) (xy 150.209848 149.3017) (xy 150.364952 149.3017) (xy 150.517076 149.271441)
-        (xy 150.660374 149.212085) (xy 150.789338 149.125914) (xy 150.899014 149.016238) (xy 150.920421 148.9842) (xy 160.629248 148.9842)
-        (xy 160.707462 149.062414) (xy 160.836426 149.148585) (xy 160.979724 149.207941) (xy 161.131848 149.2382) (xy 161.286952 149.2382)
-        (xy 161.439076 149.207941) (xy 161.582374 149.148585) (xy 161.711338 149.062414) (xy 161.789552 148.9842) (xy 163.435384 148.9842)
-        (xy 163.348865 149.090292) (xy 163.326947 149.123285) (xy 163.304593 149.155937) (xy 163.301692 149.161302) (xy 163.210076 149.333628)
-        (xy 163.19499 149.370234) (xy 163.179398 149.406618) (xy 163.177595 149.412444) (xy 163.121195 149.599283) (xy 163.113514 149.638087)
-        (xy 163.105278 149.676845) (xy 163.10464 149.68291) (xy 163.085605 149.877146) (xy 163.085605 149.877176) (xy 163.08353 149.898243)
-        (xy 163.083529 153.49822) (xy 163.080276 153.531542) (xy 163.076834 153.542959) (xy 163.071241 153.553488) (xy 163.062892 153.563734)
-        (xy 163.052369 153.571728) (xy 163.04165 153.576961) (xy 163.026445 153.580985) (xy 163.002746 153.582896) (xy 158.071724 153.582896)
-        (xy 158.104838 153.530551) (xy 158.187249 153.316621) (xy 158.226341 153.090724) (xy 158.066608 152.907217) (xy 157.18701 152.907217)
-        (xy 157.18701 152.927217) (xy 156.93301 152.927217) (xy 156.93301 152.907217) (xy 156.91301 152.907217) (xy 156.91301 152.653217)
-        (xy 156.93301 152.653217) (xy 156.93301 152.633217) (xy 157.18701 152.633217) (xy 157.18701 152.653217) (xy 158.066608 152.653217)
-        (xy 158.226341 152.46971) (xy 158.187249 152.243813) (xy 158.104838 152.029883) (xy 157.982274 151.836141) (xy 157.897868 151.747407)
-        (xy 157.948255 151.65314) (xy 158.002965 151.472782) (xy 158.01681 151.332214) (xy 158.01681 150.788219) (xy 158.002965 150.647652)
-        (xy 157.948255 150.467294) (xy 157.859409 150.301076) (xy 157.739843 150.155384) (xy 157.594151 150.035818) (xy 157.427932 149.946972)
-        (xy 157.247574 149.892262) (xy 157.06001 149.873788) (xy 156.872445 149.892262) (xy 156.692087 149.946972) (xy 156.525869 150.035818)
-        (xy 156.42501 150.118591) (xy 156.324151 150.035818) (xy 156.157932 149.946972) (xy 155.977574 149.892262) (xy 155.79001 149.873788)
-        (xy 155.602445 149.892262) (xy 155.422087 149.946972) (xy 155.255869 150.035818) (xy 155.15501 150.118591) (xy 155.054151 150.035818)
-        (xy 154.887932 149.946972) (xy 154.707574 149.892262) (xy 154.52001 149.873788) (xy 154.332445 149.892262) (xy 154.152087 149.946972)
-        (xy 153.985869 150.035818) (xy 153.88501 150.118591) (xy 153.784151 150.035818) (xy 153.617932 149.946972) (xy 153.437574 149.892262)
-        (xy 153.25001 149.873788) (xy 153.062445 149.892262) (xy 152.882087 149.946972) (xy 152.715869 150.035818) (xy 152.61501 150.118591)
-        (xy 152.514151 150.035818) (xy 152.347932 149.946972) (xy 152.167574 149.892262) (xy 151.98001 149.873788) (xy 151.792445 149.892262)
-        (xy 151.612087 149.946972) (xy 151.445869 150.035818) (xy 151.300177 150.155384) (xy 151.180611 150.301076) (xy 151.091765 150.467295)
-        (xy 151.037055 150.647653) (xy 151.02321 150.78822) (xy 151.02321 151.332215) (xy 151.037055 151.472782) (xy 151.091765 151.65314)
-        (xy 151.136772 151.737341) (xy 151.094244 151.789161) (xy 151.054149 151.864175) (xy 151.029458 151.945569) (xy 151.021121 152.030217)
-        (xy 151.021121 153.530217) (xy 151.026309 153.582896) (xy 146.041712 153.582896) (xy 146.00846 153.579639) (xy 145.997042 153.576193)
-        (xy 145.986515 153.570596) (xy 145.977272 153.56306) (xy 145.969671 153.553873) (xy 145.964001 153.543389) (xy 145.960472 153.531993)
-        (xy 145.957129 153.500215) (xy 145.957129 149.898243) (xy 145.956297 149.889799) (xy 145.953787 149.825178) (xy 145.950142 149.798652)
-        (xy 145.948438 149.771934) (xy 145.947416 149.765921) (xy 145.913364 149.57375) (xy 145.902685 149.535627) (xy 145.892539 149.497359)
-        (xy 145.890369 149.49166) (xy 145.819638 149.309763) (xy 145.805093 149.281029) (xy 145.792075 149.251839) (xy 145.789022 149.246558)
-        (xy 145.725914 149.139143) (xy 145.707159 149.113362) (xy 145.689688 149.08667) (xy 145.685832 149.081944) (xy 145.561412 148.93158)
-        (xy 145.533318 148.903687) (xy 145.505616 148.875406) (xy 145.500917 148.871518) (xy 145.349661 148.748184) (xy 145.316656 148.726261)
-        (xy 145.284014 148.703916) (xy 145.278654 148.701019) (xy 145.27865 148.701016) (xy 145.278646 148.701014) (xy 145.106319 148.609411)
-        (xy 145.069713 148.594328) (xy 145.033328 148.578738) (xy 145.027501 148.576934) (xy 144.840659 148.520545) (xy 144.801816 148.512858)
-        (xy 144.763096 148.504633) (xy 144.757034 148.503996) (xy 144.75703 148.503996) (xy 144.576031 148.486269) (xy 144.541782 148.482896)
-        (xy 137.541719 148.482896) (xy 137.508457 148.479639) (xy 137.497045 148.476195) (xy 137.486514 148.470597) (xy 137.477275 148.463064)
-        (xy 137.469672 148.453876) (xy 137.464002 148.443392) (xy 137.460473 148.431996) (xy 137.457129 148.400222) (xy 137.457129 141.5842)
-        (xy 139.573916 141.5842) (xy 139.6026 141.587025) (xy 139.631284 141.5842) (xy 139.631292 141.5842) (xy 139.717123 141.575746)
-        (xy 139.827245 141.542341) (xy 139.928734 141.488094) (xy 140.01769 141.41509) (xy 140.035982 141.392801) (xy 140.30678 141.122003)
-        (xy 140.674184 140.7546) (xy 140.712952 140.7546) (xy 140.865076 140.724341) (xy 140.914801 140.703744)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 153.37701 152.653217) (xy 154.39301 152.653217) (xy 154.39301 152.633217) (xy 154.64701 152.633217) (xy 154.64701 152.653217)
-        (xy 154.66701 152.653217) (xy 154.66701 152.907217) (xy 154.64701 152.907217) (xy 154.64701 152.927217) (xy 154.39301 152.927217)
-        (xy 154.39301 152.907217) (xy 153.37701 152.907217) (xy 153.37701 152.927217) (xy 153.12301 152.927217) (xy 153.12301 152.907217)
-        (xy 153.10301 152.907217) (xy 153.10301 152.653217) (xy 153.12301 152.653217) (xy 153.12301 152.633217) (xy 153.37701 152.633217)
       )
     )
     (filled_polygon

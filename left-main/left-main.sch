@@ -127,8 +127,6 @@ Wire Wire Line
 	5150 6350 5050 6350
 Connection ~ 5050 6350
 Wire Wire Line
-	5050 5900 5050 6050
-Wire Wire Line
 	5250 5900 5050 5900
 Wire Wire Line
 	5350 6350 5550 6350
@@ -344,8 +342,6 @@ Wire Wire Line
 	1600 6050 1600 6250
 Wire Wire Line
 	1300 6050 1600 6050
-Wire Wire Line
-	5550 5900 5500 5900
 Wire Wire Line
 	7150 1950 7150 1800
 Wire Wire Line
@@ -2765,29 +2761,6 @@ Wire Wire Line
 Connection ~ 4650 5550
 Wire Wire Line
 	4650 5550 4500 5550
-$Comp
-L ugl:C C20
-U 1 1 5CB8B23F
-P 5350 6050
-F 0 "C20" H 5750 6050 40  0000 C CNN
-F 1 "0.1uF" H 5750 6100 40  0000 C CNN
-F 2 "UGL:SM0603" H 5350 6050 60  0001 C CNN
-F 3 "" H 5350 6050 60  0000 C CNN
-	1    5350 6050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5500 5900 5500 6050
-Wire Wire Line
-	5500 6050 5450 6050
-Connection ~ 5500 5900
-Wire Wire Line
-	5500 5900 5450 5900
-Wire Wire Line
-	5250 6050 5050 6050
-Connection ~ 5050 6050
-Wire Wire Line
-	5050 6050 5050 6350
 Wire Wire Line
 	5200 5350 5550 5350
 Wire Wire Line
@@ -2920,4 +2893,8 @@ Wire Wire Line
 	4400 6100 4400 6200
 Wire Wire Line
 	4400 6400 4400 6500
+Wire Wire Line
+	5050 5900 5050 6350
+Wire Wire Line
+	5450 5900 5550 5900
 $EndSCHEMATC

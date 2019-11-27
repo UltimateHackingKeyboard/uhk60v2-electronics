@@ -2400,8 +2400,6 @@ F 3 "" H 8850 1800 60  0000 C CNN
 	1    8850 1800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9700 2250 9650 2250
 Text Label 9700 2250 2    40   ~ 0
 SDB
 Text Label 9700 2150 2    40   ~ 0
@@ -2517,28 +2515,6 @@ LED_SW10
 Text Label 10600 2400 0    40   ~ 0
 LED_SW11
 $Comp
-L ugl:C C23
-U 1 1 5C6EA2E1
-P 9500 2450
-F 0 "C23" H 9400 2400 40  0000 C CNN
-F 1 "0.1uF" H 9600 2400 40  0000 C CNN
-F 2 "UGL:SM0603" H 9500 2450 60  0001 C CNN
-F 3 "" H 9500 2450 60  0000 C CNN
-	1    9500 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 2250 9650 2450
-Wire Wire Line
-	9650 2450 9600 2450
-Connection ~ 9650 2250
-Wire Wire Line
-	9650 2250 9600 2250
-Wire Wire Line
-	9400 2450 9250 2450
-Wire Wire Line
-	9250 2450 9250 2700
-$Comp
 L ugl:C C21
 U 1 1 5C776396
 P 8650 2300
@@ -2549,9 +2525,6 @@ F 3 "" H 8650 2300 60  0000 C CNN
 	1    8650 2300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9250 2450 9250 2250
-Connection ~ 9250 2450
 $Comp
 L ugl:C C5
 U 1 1 5C6F616A
@@ -3716,4 +3689,8 @@ Wire Notes Line
 	2850 5550 8100 5550
 Wire Notes Line
 	8100 6550 8100 450 
+Wire Wire Line
+	9600 2250 9700 2250
+Wire Wire Line
+	9250 2250 9250 2700
 $EndSCHEMATC

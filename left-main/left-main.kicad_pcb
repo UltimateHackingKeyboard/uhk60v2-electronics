@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 708)
+    (drawings 712)
     (tracks 3551)
     (zones 0)
     (modules 153)
@@ -4831,6 +4831,12 @@
     )
   )
 
+  (gr_text RESET (at 159.10046 152.18128 90) (layer B.SilkS) (tstamp 5E013C2F)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  )
+  (gr_line (start 157.50046 152.78128) (end 158.30046 152.78128) (angle 90) (layer B.SilkS) (width 0.15) (tstamp 5E013C2E))
+  (gr_line (start 158.30046 152.78128) (end 158.30046 150.98128) (angle 90) (layer B.SilkS) (width 0.15) (tstamp 5E013C2D))
+  (gr_line (start 158.30046 150.98128) (end 157.50046 150.98128) (angle 90) (layer B.SilkS) (width 0.15) (tstamp 5E013C2C))
   (gr_text VCC (at 259.4 133.5) (layer F.SilkS) (tstamp 52AA4FFE)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify right))
   )

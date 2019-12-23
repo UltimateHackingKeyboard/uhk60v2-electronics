@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 653)
+    (drawings 657)
     (tracks 3624)
     (zones 0)
     (modules 176)
@@ -17,7 +17,7 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (34 B.Paste user)
     (35 F.Paste user)
@@ -27,7 +27,7 @@
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
-    (42 Eco1.User user hide)
+    (42 Eco1.User user)
     (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
@@ -5408,7 +5408,7 @@
     (at 262.4 138.1 90)
     (path /552FFC67)
     (attr virtual)
-    (fp_text reference SW1 (at -6.7 0 180) (layer B.SilkS)
+    (fp_text reference SW1 (at -6.9 0 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CT05-3050-G1 (at 0 -1.9 90) (layer B.SilkS)
@@ -5502,6 +5502,12 @@
     )
   )
 
+  (gr_text RESET (at 258.6 151 90) (layer B.SilkS) (tstamp 5E013AB6)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  )
+  (gr_line (start 257.8 151.8) (end 257.8 150) (angle 90) (layer B.SilkS) (width 0.15) (tstamp 5E013AB5))
+  (gr_line (start 257.8 151.8) (end 257 151.8) (angle 90) (layer B.SilkS) (width 0.15) (tstamp 5E013AB4))
+  (gr_line (start 257.8 150) (end 257 150) (angle 90) (layer B.SilkS) (width 0.15) (tstamp 5E013AB3))
   (gr_line (start 240.3 87) (end 235.9 87) (layer B.SilkS) (width 0.15))
   (gr_circle (center 243.506454 88.501189) (end 243.506454 88.701189) (layer B.SilkS) (width 0.15))
   (gr_text 0.4 (at 222.59084 74.70048 90) (layer Dwgs.User) (tstamp 529522EB)

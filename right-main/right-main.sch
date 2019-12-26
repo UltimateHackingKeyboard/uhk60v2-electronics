@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "UHK 60 v2 - Right Half"
 Date ""
-Rev "3.0.0"
+Rev "3.1.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
@@ -2732,11 +2732,7 @@ Wire Wire Line
 	9500 1500 9700 1500
 Wire Wire Line
 	8450 1700 8450 2200
-Wire Wire Line
-	8450 2200 8650 2200
 Connection ~ 8450 1700
-Wire Wire Line
-	8650 2200 8700 2200
 Wire Wire Line
 	9150 2200 9150 1350
 Wire Wire Line
@@ -3695,4 +3691,6 @@ Wire Wire Line
 Connection ~ 8700 2200
 Wire Wire Line
 	8700 2200 8850 2200
+Wire Wire Line
+	8450 2200 8700 2200
 $EndSCHEMATC

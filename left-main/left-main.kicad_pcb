@@ -3145,7 +3145,7 @@
     )
   )
 
-  (module UGL:SM0603 (layer B.Cu) (tedit 5C6C58A5) (tstamp 5D5B47D0)
+  (module UGL:SM0603 (layer B.Cu) (tedit 5E051325) (tstamp 5D5B47D0)
     (at 231.9 38.8 270)
     (path /577F1EDC)
     (attr virtual)
@@ -3157,9 +3157,9 @@
     )
     (fp_line (start 0.4 -0.5) (end -0.4 -0.5) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.4 0.5) (end 0.4 0.5) (layer B.SilkS) (width 0.127))
-    (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.8) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.8) (layers B.Cu B.Mask)
       (net 29 /TEST_LED))
-    (pad 1 smd rect (at -0.75 0 270) (size 0.8 0.8) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -0.75 0 270) (size 0.8 0.8) (layers B.Cu B.Mask)
       (net 31 /TEST_LED_R))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02540000082496551))
@@ -4813,7 +4813,7 @@
       (net 25 +3V3) (clearance 0.1778))
   )
 
-  (module UGL:SM0603_Diode (layer B.Cu) (tedit 5DB57C04) (tstamp 5D5B4509)
+  (module UGL:SM0603_Diode (layer B.Cu) (tedit 5E05132C) (tstamp 5D5B4509)
     (at 233.5 38.81872 90)
     (path /577F2A5A)
     (attr virtual)
@@ -4824,9 +4824,9 @@
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.6 0.4) (end -1.6 -0.4) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.8) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.8) (layers B.Cu B.Mask)
       (net 31 /TEST_LED_R))
-    (pad 1 smd rect (at -0.75 0 90) (size 0.8 0.8) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -0.75 0 90) (size 0.8 0.8) (layers B.Cu B.Mask)
       (net 16 GND))
     (model smd\resistors\R0603.wrl
       (offset (xyz 0 0 0.02540000082496551))

@@ -5385,7 +5385,7 @@
   (gr_text 5V (at 196.30046 41.71872 10) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text TC2060 (at 209.5 142.8) (layer B.SilkS) (tstamp 5C18F80C)
+  (gr_text TC2050 (at 209.5 142.8) (layer B.SilkS) (tstamp 5C18F80C)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_text SWD (at 184.30046 151.51872 90) (layer F.SilkS)

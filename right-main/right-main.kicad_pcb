@@ -17,7 +17,7 @@
   )
 
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (34 B.Paste user)
     (35 F.Paste user)
@@ -5765,7 +5765,7 @@
   (gr_text UPA10_R (at 180.2 142.6) (layer B.SilkS) (tstamp 5CCF9CD3)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
-  (gr_text TC2060 (at 180.1 141.4) (layer B.SilkS) (tstamp 5CCF9BE0)
+  (gr_text TC2050 (at 180.1 141.4) (layer B.SilkS) (tstamp 5CCF9BE0)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_text EXT_R (at 269.3 82.6) (layer B.SilkS) (tstamp 5D5B4073)

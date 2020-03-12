@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "UHK 60 v2 - LED Display Board"
 Date ""
-Rev "3.1.0"
+Rev "3.2.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""

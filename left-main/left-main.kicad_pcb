@@ -4881,7 +4881,7 @@
     )
   )
 
-  (gr_line (start 230.859686 35.710851) (end 230.859686 43.210851) (layer B.SilkS) (width 0.15))
+  (gr_line (start 230.859686 35.6) (end 230.859686 43.210851) (layer B.SilkS) (width 0.15))
   (gr_text ISO (at 171.9 121.8) (layer F.SilkS) (tstamp 5E014753)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -4952,7 +4952,7 @@
   (gr_text GND (at 262.9 147.1 90) (layer B.SilkS) (tstamp 5D5C4A88)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
-  (gr_line (start 230.9 35.7) (end 234.3 35.7) (layer B.SilkS) (width 0.15))
+  (gr_line (start 230.9 35.6) (end 234.3 35.6) (layer B.SilkS) (width 0.15))
   (gr_line (start 230.9 43.242021) (end 235.6 43.242021) (layer B.SilkS) (width 0.15))
   (gr_text L_MOD (at 249.5 140.7) (layer F.SilkS) (tstamp 5D59ECE3)
     (effects (font (size 1 1) (thickness 0.2)))

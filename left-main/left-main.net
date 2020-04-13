@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk60v2-electronics/left-main/left-main.sch)
-    (date "Mon 13 Apr 2020 01:27:10 CEST")
+    (date "Mon 13 Apr 2020 18:22:13 CEST")
     (tool "Eeschema 5.1.5-52549c5~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -125,7 +125,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 577F1EDC))
     (comp (ref R1)
-      (value 4.7K)
+      (value 5.1K)
       (footprint UGL:SM0603)
       (libsource (lib ugl) (part R) (description Resistance))
       (sheetpath (names /) (tstamps /))

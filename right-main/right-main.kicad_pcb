@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "UHK 60 v2 - Right Half")
-    (rev 3.2.0)
+    (rev 3.3.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -6042,7 +6042,7 @@
   (gr_text RESET (at 258.6 150.8 90) (layer F.SilkS) (tstamp 5A297924)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "PCB ID:\nuhk60v2_right_3.2.0" (at 172.2 48.3) (layer F.SilkS) (tstamp 5956EC7B)
+  (gr_text "PCB ID:\nuhk60v2_right_3.3.0" (at 172.2 48.3) (layer F.SilkS) (tstamp 5956EC7B)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left))
   )
   (gr_line (start 240 144.525) (end 257.3 144.525) (layer Eco2.User) (width 0.1))
@@ -6108,7 +6108,7 @@
   (gr_text SWD (at 261.2 151.4 90) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "PCB ID: uhk60v2_right_3.2.0" (at 186.9 146.8) (layer B.SilkS) (tstamp 5C5084A9)
+  (gr_text "PCB ID: uhk60v2_right_3.3.0" (at 186.9 146.8) (layer B.SilkS) (tstamp 5C5084A9)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 265.3 145.795415) (end 271.2 145.795415) (angle 90) (layer B.SilkS) (width 0.15) (tstamp 5CA365F6))

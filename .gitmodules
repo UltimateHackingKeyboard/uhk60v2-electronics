@@ -3,7 +3,7 @@
 	url = https://github.com/UltimateHackingKeyboard/opendous-kicad-lib.git
 [submodule "libs/ugl"]
 	path = libs/ugl
-	url = git@bitbucket.org:mondalaci/ugl-kicad-lib.git
+	url = git@github.com:UltimateHackingKeyboard/ugl-kicad-lib-private.git
 [submodule "libs/kiibohd"]
 	path = libs/kiibohd
 	url = https://github.com/kiibohd/pcb.git

@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name ugl)(type Legacy)(uri ${KIPRJMOD}/../libs/ugl/library/ugl.lib)(options "")(descr ""))
+  (lib (name UGL)(type Legacy)(uri ${KIPRJMOD}/../libs/ugl/library/ugl.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
   (lib (name device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Device.lib)(options "")(descr ""))
   (lib (name opendous)(type Legacy)(uri ${KIPRJMOD}/../libs/opendous/library/opendous.lib)(options "")(descr ""))

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "UHK 60 v2 - Left Half"
 Date ""
-Rev "3.4.1"
+Rev "3.5.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
